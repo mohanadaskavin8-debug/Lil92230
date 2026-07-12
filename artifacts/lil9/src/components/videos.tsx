@@ -3,9 +3,9 @@ import { Play } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 const FEATURED = {
-  id: "SdnPxFY46dc",
+  id: "qLlmzliw1tQ",
   title: "First Day Out / Bitch I'm Back",
-  thumbnail: "https://img.youtube.com/vi/SdnPxFY46dc/maxresdefault.jpg",
+  thumbnail: "https://img.youtube.com/vi/qLlmzliw1tQ/maxresdefault.jpg",
 };
 
 export default function Videos() {
