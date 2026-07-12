@@ -123,7 +123,7 @@ export default function Story() {
                   className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-1000 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent pointer-events-none" />
-                <div className={`absolute top-5 right-5 font-display text-5xl md:text-6xl tracking-widest leading-none select-none ${idx === 1 ? 'text-black/70' : 'text-white/40'}`}>
+                <div className={`absolute top-5 right-5 font-display text-5xl md:text-6xl tracking-widest leading-none select-none ${idx === 1 ? 'text-black/55' : 'text-white/50'}`}>
                   {person.alias}
                 </div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
