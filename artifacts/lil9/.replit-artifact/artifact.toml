@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Lil 9 — Official Site"
+version = "1.0.0"
+id = "artifacts/lil9"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20518
+
+[services.development]
+run = "pnpm --filter @workspace/lil9 run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/lil9", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/lil9/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20518"
+BASE_PATH = "/"
