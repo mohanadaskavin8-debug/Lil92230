@@ -23,12 +23,12 @@ export default function Footer() {
               <SocialLink href="https://www.instagram.com/lil9_2230" icon={<SiInstagram />} label="Instagram" />
               <SocialLink href="https://open.spotify.com/artist/1DgcL6YBYJhkbWMXvzqlod" icon={<SiSpotify />} label="Spotify" />
               <SocialLink href="https://music.apple.com/ca/artist/lil-9/1685127697" icon={<SiApple />} label="Apple Music" />
-              <SocialLink href="https://youtube.com" icon={<SiYoutube />} label="YouTube" />
+              <SocialLink href="https://www.youtube.com/@2230World" icon={<SiYoutube />} label="YouTube" />
             </div>
 
             <div className="font-mono text-sm tracking-widest text-muted-foreground uppercase">
               <span className="text-white/40 block mb-1">Booking & Press</span>
-              <a href="mailto:booking@lil9.com" className="text-white hover:text-accent transition-colors text-lg">booking@lil9.com</a>
+              <a href="mailto:lil92230beat@gmail.com" className="text-white hover:text-accent transition-colors text-lg">lil92230beat@gmail.com</a>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
         {/* MASSIVE CITY TAGLINE */}
         <div className="w-full flex justify-center mb-16 select-none pointer-events-none">
           <h1 className="text-[12vw] font-display text-white/5 tracking-tighter leading-none whitespace-nowrap">
-            TORONTO · THE 6IX
+            NONQUON · OSHAWA
           </h1>
         </div>
 

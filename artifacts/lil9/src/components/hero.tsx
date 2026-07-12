@@ -23,7 +23,7 @@ export default function Hero() {
       >
         <img 
           src={lil9Suv} 
-          alt="Lil 9 in Maybach" 
+          alt="Lil 9" 
           className="w-full h-full object-cover object-center md:object-top"
         />
         {/* Gradients to blend into the next section */}

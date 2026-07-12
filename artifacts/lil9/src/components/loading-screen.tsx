@@ -73,7 +73,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            LOADING THE 6IX...
+            LOADING NONQUON...
           </motion.div>
         </motion.div>
       )}
