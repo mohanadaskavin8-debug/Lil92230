@@ -147,7 +147,7 @@ export default function Story() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center font-mono text-xs tracking-[0.3em] text-white/40 uppercase mt-14"
         >
-          Long Live The 22s · Long Live Gremz
+          Long Live JoJo · Long Live Gremz
         </motion.p>
       </div>
     </section>

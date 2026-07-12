@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import coverFreeTheMen from '@/assets/cover-free-the-men.png';
 import coverRoty from '@/assets/cover-roty.png';
+import lil9MaybachWhite from '@/assets/lil9-maybach-white.png';
 
 const MILESTONES = [
   {
@@ -31,6 +32,13 @@ const MILESTONES = [
       "Free The Men (feat. 30 Bop Baby & Lil Threatski)"
     ],
     image: coverFreeTheMen
+  },
+  {
+    year: "2026",
+    title: "FIRST DAY OUT",
+    description: "Back and hungrier than ever. 'First Day Out / Bitch I'm Back' drops with an official music video — his biggest statement yet.",
+    list: ["First Day Out / Bitch I'm Back"],
+    image: lil9MaybachWhite
   }
 ];
 
