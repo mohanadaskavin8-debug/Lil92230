@@ -68,7 +68,7 @@ export default function Story() {
 
           {/* Stat Counters */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mt-16 pt-12 border-t border-white/10">
-            <StatCounter value="50K+" label="Monthly Listeners" delay={0.4} inView={isInView} />
+            <StatCounter value="6,890" label="Monthly Listeners" delay={0.4} inView={isInView} />
             <StatCounter value="1.5M+" label="Total Streams" delay={0.5} inView={isInView} />
             <StatCounter value="5+ YRS" label="On The Grind" delay={0.6} inView={isInView} />
           </div>
