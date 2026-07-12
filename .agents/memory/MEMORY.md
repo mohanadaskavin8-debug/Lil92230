@@ -1,0 +1,1 @@
+- [Design subagent redesigns](design-subagent-redesigns.md) — a redesign leaves orphaned component files from the prior build; reconcile the components dir against actual imports after.
