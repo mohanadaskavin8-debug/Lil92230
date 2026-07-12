@@ -4,7 +4,7 @@ import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 const FEATURED = {
   id: "qLlmzliw1tQ",
-  title: "First Day Out / Bitch I'm Back",
+  title: "Lil9 Ft Libb - 22 Or The 30",
   thumbnail: "https://img.youtube.com/vi/qLlmzliw1tQ/maxresdefault.jpg",
 };
 
