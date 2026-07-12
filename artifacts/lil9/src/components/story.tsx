@@ -7,7 +7,7 @@ import jaheimGremz from '@/assets/jaheim-gremz.png';
 const MEMORIAL = [
   {
     photo: joshua22,
-    name: 'Joshua "22" Connell-Wong',
+    name: 'Joshua "JoJo" Connell-Wong',
     alias: '22',
     born: '22 JUL 1999',
     passed: '25 JUN 2022',
@@ -15,7 +15,7 @@ const MEMORIAL = [
   {
     photo: jaheimGremz,
     name: 'Jaheim "Gremz" Spence',
-    alias: 'GREMZ',
+    alias: '30',
     born: '09 MAR 2001',
     passed: '25 JUN 2022',
   },
@@ -123,7 +123,7 @@ export default function Story() {
                   className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-1000 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent pointer-events-none" />
-                <div className="absolute top-5 right-5 font-display text-5xl md:text-6xl text-white/20 tracking-widest leading-none select-none">
+                <div className="absolute top-5 right-5 font-display text-5xl md:text-6xl text-white/40 tracking-widest leading-none select-none">
                   {person.alias}
                 </div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
