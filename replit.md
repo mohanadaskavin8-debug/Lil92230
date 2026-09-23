@@ -1,45 +1,51 @@
-# [Project name]
+# Lil9 — Artist Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A custom, responsive artist website designed and developed for **Lil9**, creating a centralized digital platform for showcasing music, content, and brand identity.
 
-## Run & Operate
+The website provides fans and visitors with a modern way to discover Lil9's music, explore content, and connect with the artist's online presence.
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+## ✨ Features
 
-## Stack
+* 🎵 Artist and music-focused content
+* 💿 Music and release showcase
+* 🎨 Custom visual identity and artist-focused UI
+* 📱 Fully responsive design across desktop and mobile
+* 🔗 Social media and streaming platform integration
+* 🧭 Intuitive navigation and modern page layouts
+* ⚡ Smooth and streamlined user experience
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+## 🎯 Project Goals
 
-## Where things live
+The goal was to create a professional digital home for Lil9 that brings his music, content, and brand together in one centralized platform.
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+The website focuses on:
 
-## Architecture decisions
+* Strong visual identity
+* Modern UI/UX
+* Responsive design
+* Clear content organization
+* Mobile usability
+* Easy access to music and social platforms
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+## 🛠️ Technology
 
-## Product
+* **Language:** TypeScript
+* **Package Manager:** pnpm
+* **Build System:** TypeScript / pnpm workspace
+* **Platform:** Replit
+* **Code Formatting:** Prettier
+* **Integrations:** Replit Connectors SDK
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+## 🌐 Live Website
 
-## User preferences
+**https://lil92230.com**
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+## 👨‍💻 Development
 
-## Gotchas
+I designed and developed the website from concept through deployment, handling the UI/UX, responsive layouts, music presentation, content organization, and overall digital experience.
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+This project involved translating an artist's brand into a **real-world, client-facing digital product** designed to give fans an engaging and seamless way to explore the artist's work.
 
-## Pointers
+---
 
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+**Built by Mohanadas Kavin**
